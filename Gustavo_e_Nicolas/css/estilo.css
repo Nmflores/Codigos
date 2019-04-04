@@ -62,9 +62,9 @@ nav ul li a:hover{
 
 
 .conteudo{ 
-    display: none; 
+    visibility: hidden;
     position: absolute;
-  
+   
 }
 
 
@@ -74,9 +74,12 @@ nav ul li a:hover{
 
 
 .dropdown:hover .conteudo{ 
-    display: block;  
+    visibility: visible;
+    display: block;
     background-color:#009688;
-
+    transform: translateY(3px);
+    transition:.55s ease;
+  
 }
 
 
