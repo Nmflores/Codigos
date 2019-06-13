@@ -35,6 +35,8 @@ nav{
     background-color:teal;
     justify-content: flex-start;
     padding: 10px;
+    position: sticky;
+    top:0;
 }
 nav ul{
     list-style-type: none;
@@ -57,7 +59,7 @@ nav ul li a{
 
 
 nav ul li a:hover{ 
-    color:yellow;
+    color:lime;
 }
 
 
@@ -78,14 +80,15 @@ nav ul li a:hover{
     display: block;
     background-color:#009688;
     transform: translateY(3px);
-    transition:.55s ease;
+    transition:.57s ease;
+ 
   
 }
 
 
 @media all and (max-width:800px){
     nav ul{
-        justify-content:space-between;
+        justify-content:flex-start;
 
     }
 
